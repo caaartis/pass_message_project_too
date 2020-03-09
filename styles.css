@@ -1,0 +1,86 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+html, body { 
+    
+    
+    min-height: 100vh; 
+    min-width: 100vw;
+    background:hsl(192, 100%, 50%);}
+
+/* body{
+    background:hsl(192, 100%, 50%);
+    height:100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+} */
+
+.container{
+    background:hsl(192, 100%, 50%);
+    min-height: 100vh; 
+    min-width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.form-container{
+    background:#e6e6e6;
+    height:400px;
+    width:800px;
+    padding:0px 28px;
+}
+
+.form-container h1{
+    text-align:center;
+    margin-top:30px;
+    text-transform: capitalize;
+}
+
+.btn-click{
+    text-align: center;
+}
+
+
+.btn-form{
+    margin-top:20px;
+    text-align: center;
+}
+
+.btn-click{
+    padding:10px 30px;
+    background:hsl(192, 100%, 50%);
+    text-transform: capitalize;
+    font-size:19px;
+    border-radius:9px;
+    color:#fff;
+    transition: all .4s ease-in;
+    cursor:pointer;
+}
+
+.btn-click:hover{
+    background:hsl(240, 100%, 65%);
+    color:black;
+}
+
+.last-msg-div{
+    margin-top:16px;
+    font-size:40px;
+    font-weight:800;
+    text-transform: capitalize;
+
+}
+
+
+.submit-msg{
+    margin-top:16px;
+    font-size:39px;
+    text-transform:capitalize;
+    font-weight: 700;
+    color:hsl(192, 100%, 50%);
+}
